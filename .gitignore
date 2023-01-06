@@ -1,0 +1,14 @@
+### CypressIo ###
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
+
+### Node ###
+node_modules/
+
+### MAC OS ###
+.DS_Store
+
+### Project ###
+mochawesome-report/*

@@ -1,0 +1,25 @@
+{
+  "chromeWebSecurity": false,
+  "pageLoadTimeout": 50000,
+  "defaultCommandTimeout": 10000,
+  "screenshotOnRunFailure": true,
+  "trashAssetsBeforeRuns": true,
+  "videoCompression": 15,
+  "video": false,
+  "videoUploadOnPasses": false,
+  "env": {
+    "first_name": "Sarah",
+    "first_name2": "Carlos",
+    "webdriveruni_homepage": "https://www.webdriveruniversity.com"
+  },
+  "baseUrl": "https://www.webdriveruniversity.com",
+  "projectId": "mrdcji",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "retries": {
+    "runMode": 0,
+    "openMode": 1
+  }
+}
