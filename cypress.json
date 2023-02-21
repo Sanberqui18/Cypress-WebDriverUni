@@ -21,5 +21,7 @@
   "retries": {
     "runMode": 0,
     "openMode": 1
-  }
+  },
+  "experimentalStudio": false,
+  "specPattern": "cypress/integration/**/*.{js,jsx,ts,tsx,feature}"
 }

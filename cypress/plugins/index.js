@@ -23,6 +23,11 @@ module.exports = (on, config) => {
 
 const fs = require('fs-extra');
 const path = require('path');
+const cucumber = require('cypress-cucumber-preprocessor').default
+
+module.exports = (on, config) => {
+  on('file:preprocessor', cucumber())
+};
 
 function getConfigurationByFile(file) {
    const pathToConfigFile = path.resolve('cypress/config', `${file}.json`);
